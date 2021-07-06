@@ -183,3 +183,8 @@ footer p{
     font-size: 15px;
     color: #353b48;
 }
+.button{
+    text-decoration: none;
+    text-align: center;
+    padding:1% 100%;
+}
