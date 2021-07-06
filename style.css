@@ -2,25 +2,24 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
-section{
-    display: flex;
-}
+
 #head-section{
     margin-top: 50px;
     margin-bottom: 100px;
+    display: flex;
 }
-.content{
+.header-content{
     width: 45%;
     
     padding-left: 10%;
 }
-.content h1{
+.header-content h1{
     font-size: 55px;
     color: #3b3b3b;
     padding-top: 50px;
 
 }
-.content p{
+.header- content p{
     font-size:18px;
     color: #717171;
     margin-bottom: 35px;
@@ -50,6 +49,7 @@ a{
     background-image: url("images/7.png");
     background-repeat: no-repeat;
     margin-bottom: 6%;
+    display: flex;
 }
 .about-image{
     padding-left: 20%;
@@ -104,17 +104,82 @@ a{
 .card img{
     width: 100%;
 }
+#testimonial{
+    height: 300px;
+
+}
+#testimonial h2{
+    text-align: center;
+    color: #5c5c5c;
+    padding: 40px;
+}
+.testimonial-image{
+    width: 200px;
+    float: left;
+}
+.testimonial-image img {
+    width: 63%;
+    border-radius: 50%;
+    margin-left: 55px;
+}
+.main-width {
+    width: 40%;
+    padding-left: 5%;
+    height: 130px;
+    float: left;
+}
+.main-width p{
+    color: #6d6d6d;
+    margin: 0;
+}
+.main-width h3{
+    margin-top:10px;
+    font-size: 15px;
+    color: #353b48;
+}
 footer{
     text-align: center;
     background-color: black;
+    
 }
 footer h3{
     color:#5B5B5B;
     padding-top: 2%;
     font-size: 30px;
+    margin: 0;
 }
 footer p{
     color: #aaa7a7;
-    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
     padding-bottom: 2%;
+}
+
+#food-menu-section{
+    background-image: url("images/bg-2.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.menu h2 {
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 5%;
+    width: 50%;
+    font-size: 45px;
+    color: #EE5A24;
+}
+.menu-item{
+    margin-left: 20%;
+    padding: 1% 0 5%;
+    width: 50%;
+}
+.menu-item h3{
+    padding-top: 15px;
+    color: #2f3640;
+    margin-bottom: 5px;
+}
+.menu-item p{
+    font-size: 15px;
+    color: #353b48;
 }
